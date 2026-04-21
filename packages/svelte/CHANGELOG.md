@@ -1,5 +1,12 @@
 # @ark-ui/svelte
 
+## [5.21.2] - 2026-04-21
+
+### Fixed
+
+- - **Field**: Export `FieldItem` component from the top-level package. The component was previously only accessible via
+    the `Field.Item` namespace.
+
 ## [5.21.1] - 2026-04-14
 
 ### Fixed
