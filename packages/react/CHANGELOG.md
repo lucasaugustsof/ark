@@ -1,5 +1,15 @@
 # @ark-ui/react
 
+## [5.36.2] - 2026-04-21
+
+### Fixed
+
+- - **Field**: Export `FieldItem` component from the top-level package. The component was previously only accessible via
+    the `Field.Item` namespace.
+
+- Fix React Server Components build failure caused by a stray `"use client"` directive on the shared
+  `_virtual/_rolldown/runtime.js` helper emitted by vite 8's rolldown backend.
+
 ## [5.36.1] - 2026-04-14
 
 ### Fixed
